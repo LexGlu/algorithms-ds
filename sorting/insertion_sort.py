@@ -1,8 +1,9 @@
 import random
+from typing import List
 
 lst = [random.randint(0, 100) for i in range(10)]
 
-def insertion_sort(arr):
+def insertion_sort(arr: List[int]) -> None:
     n = len(arr)
     print(f'Initial array: {arr}')
     for i in range(1, n):
@@ -14,6 +15,8 @@ def insertion_sort(arr):
 
 
 # Manual check
-insertion_sort(lst)
-print(f'Array after sort: {lst}')
-print(f'Array is sorted: {lst == sorted(lst)}')
+if __name__ == '__main__':
+    insertion_sort(lst)
+    print(f'Array after sort: {lst}')
+    print(f'Array is sorted: {lst == sorted(lst)}')
+    
