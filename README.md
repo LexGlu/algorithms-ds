@@ -1,5 +1,6 @@
 # Algorithms and Data Structures
 Practice for implementing algorithms and data structures in Python.
+
 ## Algorithms
 ### Sorting
 1) [Bubble Sort](./sorting/bubble_sort.py)
@@ -30,3 +31,20 @@ Practice for implementing algorithms and data structures in Python.
 - Average-case time complexity: `O(n^2)`
 - Worst space complexity: `O(1)`
 - ![selection-sort](./gifs/selection-sort.gif)
+6) [Merge Sort](./sorting/merge_sort.py)
+- Worst-case time complexity: `O(nlogn)`
+- Best-case time complexity: `O(nlogn)`
+- Average-case time complexity: `O(nlogn)`
+- Worst space complexity: `O(n)`
+- ![merge-sort](./gifs/merge-sort.gif)
+
+
+## Setup
+1) Clone the repository with `git clone https://github.com/LexGlu/algorithms-ds.git`
+2) Navigate to the root directory of the project with `cd algorithms-ds`
+3) Create a virtual environment with `python -m venv venv`
+4) Activate the virtual environment with `source venv/bin/activate`
+5) Install the dependencies with `pip install -r requirements.txt`
+
+## Testing
+Pytest is used for automated testing of each algorithm. To run the tests, run `pytest` in the root directory of the project.
