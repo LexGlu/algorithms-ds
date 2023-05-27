@@ -16,7 +16,7 @@ def merge_sort(arr: List[int]) -> List[int]:
                 merged_arr.append(right[j])
                 j += 1
                 
-        # add remaining elements from left/right half (only one while loop can be triggered)        
+        # add remaining elements from left/right half (if any)        
         while i < len(left):
             merged_arr.append(left[i])
             i += 1
@@ -49,3 +49,4 @@ if __name__ == '__main__':
     from utils import time_sort_func, check_sort_func
     check_sort_func(merge_sort, 20)
     time_sort_func(merge_sort)
+    

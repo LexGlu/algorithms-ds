@@ -37,6 +37,12 @@ Practice for implementing algorithms and data structures in Python.
 - Average-case time complexity: `O(nlogn)`
 - Worst space complexity: `O(n)`
 - ![merge-sort](./gifs/merge-sort.gif)
+7) [Quick Sort](./sorting/quick_sort.py)
+- Worst-case time complexity: `O(n^2)`
+- Best-case time complexity: `O(nlogn)`
+- Average-case time complexity: `O(nlogn)`
+- Worst space complexity: `O(logn)`
+- ![quick-sort](./gifs/quick-sort.gif)
 
 
 ## Setup
